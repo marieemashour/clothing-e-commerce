@@ -1,0 +1,184 @@
+ *
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer
+{
+    padding: 30px 40px;
+    width: 100%;
+    background-color: #dee2e6;
+}
+.footer .container {
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; 
+    padding: 20px;
+}
+
+.footer .container .about .logo {
+
+    background-color: #0849a8;
+    color: white;
+    border-radius: 5%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 21.5%;
+}
+
+.footer .container .about .detail p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #010f1c;
+}
+.footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .container .about .detail .icon li
+{
+    margin-left: 20px;
+    list-style: none;
+    padding: 10px 10px;
+    color:#0849a8;
+    border-bottom: 3px solid #00aaff;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer .container .about .detail .icon li a:hover
+{
+    background: rgba(194, 193, 189, 0.594);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.footer .container .about .detail .icon .ffa a{
+    color: rgb(59, 107, 139);
+}
+.footer .container .about .detail .icon .iia a{
+    color: rgb(229, 88, 67);
+}
+.footer .container .about .detail .icon .tta a{
+    color: rgb(59, 107, 139);
+}
+.footer .container .about .detail .icon .you a{
+    color: rgb(211, 49, 40);
+}
+.footer .container .account
+{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.footer .container .account h3
+{
+    font-size: 32px;
+    color: #010f1c;
+}
+.footer .container .account ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .account ul li .link
+{
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer .container .account ul li:hover
+{
+    color: #0849a8;
+}
+.footer .container .page
+{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.footer .container .page h3
+{
+    font-size: 32px;
+    color: #010f1c;
+}
+.footer .container .page ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .page ul li .link
+{
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer .container .page ul li .link:hover
+{
+    color: #0849a8
+}
+@media screen and (max-width: 900px){
+    .footer
+{
+    padding: 30px 0px;
+}
+
+.footer .container .about p{
+    font-size: 25px;
+}
+.footer .container .about .detail p
+{
+    
+    font-size: 12px;
+}
+/* .footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+} */
+.footer .container .about .detail .icon li
+{
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.5px 1.5px 1.9px;
+
+}
+
+
+.footer .container .account
+{
+    margin-top: 40px;
+}
+
+
+.footer .container .account h3
+{
+font-weight: bold;
+}
+.footer .container .page
+{
+   
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.footer .container .page h3
+{
+    font-weight: bold;
+}
+}

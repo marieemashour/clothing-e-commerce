@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.about-container
+{
+    
+    padding: 30px 40px;
+    width: 100%;
+    background: rgba(243, 237, 232, 0.253);
+   
+}
+.about-container .about
+{
+    padding: 40px 20px;
+   
+}
+.about-container .about h2
+{
+   
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #0849a8;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.about-container .about .welcome  {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 20px;
+   
+} .about-container .about .image{
+    transition: 2s;
+    border-radius: 50px;
+} 
+.about-container .about .image:hover{
+   transform: scale(1.2,1.2);
+}
+.about-container .info{
+    font-size: 19px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.about-container .details{
+    font-size: 20px;
+    margin-top: 40px;
+
+
+}
+.about-container .details .shop,.about-container .details .contact{
+    color:  #0849a8;
+    font-size: 19px;
+}
+.home{
+    text-decoration: none;
+    color: #0849a8;
+}
+.thanks{
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 25px;
+}
+.wish{
+    margin-top: 20px;
+    margin-left: 270px;
+    font-size: 25px;
+
+}
+.our-story p{
+    font-size: larger;
+} 
+@media screen and (max-width: 768px) {
+.thanks{
+    margin-left: 0;
+    margin-top: 0;}
+.wish{
+     margin-left: 0;
+     margin-top: 0;
+    }
+}
+
+
